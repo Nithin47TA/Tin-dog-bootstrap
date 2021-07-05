@@ -22,7 +22,9 @@ body {
 
 /* T i t l e - s e c t i o n */
 
-
+#title {
+  text-align: left;
+}
 
 h3 {
   font-weight: 900;
