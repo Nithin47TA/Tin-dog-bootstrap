@@ -12,11 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- Bootstrap-script -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"
-    ></script>
+  
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -39,7 +35,7 @@
   </head>
 
   <body>
-    <section id="title">
+    <section id="title" class="background-1">
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar d-flex navbar-expand-lg navbar-dark">
@@ -57,10 +53,14 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
               <li class="nav-item">
-                <a href="#" class="nav-link">Download</a>
+                <a href="#footer" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#cta" class="nav-link">Download</a>
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@
 
     <!-- Testimonials -->
 
-    <section id="testimonials">
+    <section id="testimonials" class="background-2">
       <div id="people" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -159,7 +159,7 @@
 
     <!-- Press -->
 
-    <section id="press">
+    <section id="press" class="background-2">
       <img class="company" src="images/techcrunch.png" alt="tc-logo" />
       <img class="company" src="images/tnw.png" alt="tnw-logo" />
       <img class="company" src="images/bizinsider.png" alt="biz-insider-logo" />
@@ -169,8 +169,11 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      <div class="heading">
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for your and your dog.</p>
+      </div>
+
       <div class="row">
         <div class="prices col-lg-4 col-md-6">
           <div class="card">
@@ -236,10 +239,14 @@
 
     <!-- Call to Action -->
 
-    <section id="cta">
+    <section id="cta" class="background-1">
       <h3>Find the True Love of Your Dog's Life Today.</h3>
-      <button class="btn btn-dark btn-lg" type="button"><i class="fa fa-apple"></i> Download</button>
-      <button class="btn btn-light btn-lg" type="button"><i class="fab fa-google-play"></i> Download</button>
+      <button class="btn btn-dark btn-lg" type="button">
+        <i class="fa fa-apple"></i> Download
+      </button>
+      <button class="btn btn-light btn-lg" type="button">
+        <i class="fab fa-google-play"></i> Download
+      </button>
     </section>
 
     <!-- Footer -->
@@ -252,46 +259,26 @@
       <p>© Copyright 2018 TinDog</p>
     </footer>
 
-    
     <!-- Bootstrap-script -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="/docs/4.0/assets/js/vendor/jquery-slim.min.js"><\/script>'
-        );
-    </script>
-
-    <script
-      src="/docs/4.0/assets/js/vendor/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
     <script
-      src="/docs/4.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <script src="/docs/4.0/assets/js/docs.min.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
   </body>
 </html>
