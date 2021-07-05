@@ -6,6 +6,7 @@ body {
   background-color: #ff4c68;
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  
 }
 h3 {
   font-weight: 900;
@@ -43,22 +44,30 @@ h1 {
 }
 .container-fluid {
   padding: 3% 15%;
+  
+
 }
 
 .btn {
   margin: 30px 10px;
 }
 
+.col-lg-6{
+  position: relative;
+}
 .image {
   width: 60%;
   transform: rotate(25deg);
-  position: relative;
+  position: absolute;
+ 
 }
 
 /* Features */
 
 #features {
-  padding: 12%;
+  padding:12%;
+  position: relative;
+  background-color: #fff;
 }
 
 .feature-items {
@@ -140,6 +149,7 @@ padding: 5%;
   .image {
     width: 60%;
     transform: rotate(0);
+    position: relative;
   }
 
   
